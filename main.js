@@ -49,3 +49,8 @@ function atualizarCronometo(){
         document.getElementById("mim"+i).textContent = calculaTempo(tempo[i])(2);
     }
 }
+
+function comecaCronometro() {
+    atualizarCronometo();
+    setInterval
+}
